@@ -1,0 +1,65 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.navbar {
+    background: #3CA6AE;
+    color: white;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+    outline: 0;
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+    outline: 0;
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.navbar, .navbar-brand, .navbar-nav, .navbar-custom .navbar-nav > li > a {
+    color: white !important;
+}
+.navbar .it-color, .it-color-red {
+    color: #AE443C;
+}
+
+.home-section {
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.it-color {
+    color: #3CA6AE;
+}
+
+.intro-social-buttons a {
+    color: white;
+}
+
+.banner-social-buttons a {
+    color: white;
+    font-size: 25px;
+}
+
+footer, footer a {
+  background: #3CA6AE;
+  color: white;
+}
