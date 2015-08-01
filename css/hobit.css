@@ -41,6 +41,10 @@ h6 {
     color: #AE443C;
 }
 
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
 .home-section {
     padding-top: 110px;
     padding-bottom: 110px;
@@ -59,7 +63,7 @@ h6 {
     font-size: 25px;
 }
 
-footer, footer a {
+footer, footer a, footer a:hover {
   background: #3CA6AE;
   color: white;
 }

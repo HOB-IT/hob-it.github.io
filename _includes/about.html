@@ -17,14 +17,15 @@
       <div class="container-fluid">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-              <br/>
-
-              {% for text in page.about.texts %}
+              <div data-wow-delay="0.2s" class="wow fadeInLeft">
                 <br/>
-                <p>{{ text.text }}</p>
-                <br/>
-              {% endfor %}
 
+                {% for text in page.about.texts %}
+                  <br/>
+                  <p>{{ text.text }}</p>
+                {% endfor %}
+
+              </div>
             </div>
         </div>
       </div>
