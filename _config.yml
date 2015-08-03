@@ -21,11 +21,16 @@ permalink: pretty
 # ----------------------- #
 
 social:
+  - title: send mail
+    icon: envelope
+    url: mailto:info@hobit.com.ar
   - title: github
+    icon: github
     url: https://github.com/HOB-IT
-#  - title: linkedin
-#    url:
+  - title: linkedin
+    url: https://www.linkedin.com/company/hob-it
   - title: facebook
+    icon: facebook
     url: https://www.facebook.com/hobit.arg
 #  - title: twitter
 #    url: https://twitter.com/SBootstrap

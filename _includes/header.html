@@ -12,9 +12,9 @@
 						<hr class="intro-divider">
 						<ul class="list-inline intro-social-buttons">
 							{% for social in site.social %}
-							<li class="social-{{ social.title }}">
+							<li class="social-{{ social.icon }}">
 								<a href="{{ social.url }}" title="{{ social.title }}">
-                  <i class="fa fa-{{ social.title }} fa-fw"></i></a>
+                  <i class="fa fa-{{ social.icon }} fa-fw"></i></a>
 							</li>
 							{% endfor %}
 						</ul>

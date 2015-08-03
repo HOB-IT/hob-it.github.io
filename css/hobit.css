@@ -158,7 +158,7 @@ h6 {
     }
 
     ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
+        margin-bottom: 0;<
     }
 }
 
@@ -204,8 +204,9 @@ p.copyright {
 }
 
 .home-section {
-    padding-top: 110px;
+    font-weight: normal;
     padding-bottom: 110px;
+    padding-top: 110px;
 }
 
 .it-color {
@@ -220,4 +221,8 @@ footer {
 
 footer a, footer a:hover, .banner-social-buttons a, .banner-social-buttons a:hover {
     color: white !important;
+}
+
+h5, .h5 {
+    font-size: 16px;
 }
