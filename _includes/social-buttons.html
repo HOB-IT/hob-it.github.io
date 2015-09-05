@@ -1,6 +1,8 @@
-{% for social in site.social %}
-<li class="social-{{ social.icon }}">
-  <a href="{{ social.url }}" title="{{ social.title }}" target="_blank">
-    <i class="fa fa-{{ social.icon }} fa-fw"></i></a>
-</li>
-{% endfor %}
+{% if site.social%}
+  {% for social in site.social %}
+  <li class="social-{{ social.icon }}">
+    <a href="{{ social.url }}" title="{{ social.title }}" target="_blank">
+      <i class="fa fa-{{ social.icon }} fa-fw"></i></a>
+  </li>
+  {% endfor %}
+{% endif %}
