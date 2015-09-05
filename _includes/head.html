@@ -6,6 +6,12 @@
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="{{ site.author }}">
 
+    {% if page.metas %}
+      {% for meta in page.metas %}
+        <meta {{meta.typename}}="{{meta.typevalue}}"{% if meta.content %} content="{{ meta.content }}"{% endif %}>
+      {% endfor %}
+    {% endif %}
+
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
     <!-- HOB-IT CSS -->
